@@ -1,0 +1,68 @@
+
+.seccion2
+{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.seccion2 .jeisson1 {
+    font-family: cursive;
+    background: linear-gradient( white, black);
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    height: 400px;
+    border: 3px solid black;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+
+.seccion2 .kevin1
+{
+    font-family: cursive;
+    background: linear-gradient( white, black);
+    width: 200px;
+    height: 400px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+
+
+.seccion2 .carlos1 
+{
+    font-family: cursive;
+    background: linear-gradient( white, black);
+    width: 200px;
+    height: 400px;
+    border: 3px solid black;
+    margin-left: 50px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+  
+.video-container {
+    position: relative;
+}
+  
+.video-container video {
+    display: block;
+    height: auto;
+}
